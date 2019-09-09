@@ -1,0 +1,305 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #424242;
+}
+.header img {
+  min-width: 117px;
+  max-height: 117px;
+}
+.header p {
+  font-size: 18px;
+  color: #ffd366;
+}
+.header input {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.18);
+  border: 2px solid #ffd366;
+  padding: 5px 10px;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.header input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Noto Sans TC", sans-serif;
+}
+.header input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Noto Sans TC", sans-serif;
+}
+.header input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Noto Sans TC", sans-serif;
+}
+.header input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Noto Sans TC", sans-serif;
+}
+.header .submit-area {
+  text-align: center;
+}
+.header .submit-area .your-result {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.header .submit-area .result-area {
+  width: 125px;
+  height: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 50%;
+}
+.header .submit-area .result-area p {
+  margin-bottom: 0;
+}
+.header .submit-area .result-area .reflesh-button {
+  position: absolute;
+  left: 80%;
+  top: 70%;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  color: #424242;
+}
+.header .submit-area .BMI-result {
+  font-size: 33px;
+  margin-bottom: 0;
+}
+.header .submit-area .your-Status {
+  font-size: 33px;
+  font-weight: 500;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.header .submit-area #submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 150px;
+  min-height: 150px;
+}
+.header .submit-area #submit a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding: 50px 40px;
+  font-size: 24px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #ffd366;
+  color: #424242;
+  font-family: "Noto Sans TC", sans-serif;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.header .submit-area #submit a:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 1px 6px 3px rgba(255, 196, 50, 0.64);
+  box-shadow: 0px 1px 6px 3px rgba(255, 196, 50, 0.64);
+}
+
+.color-UnderWeight {
+  border-color: #31baf9;
+}
+.color-UnderWeight p {
+  color: #31baf9;
+}
+
+.color-Health {
+  border-color: #86d73f;
+}
+.color-Health p {
+  color: #86d73f;
+}
+
+.color-OverWeight {
+  border-color: #ff982d;
+}
+.color-OverWeight p {
+  color: #ff982d;
+}
+
+.color-MildObesity {
+  border-color: #ff6c03;
+}
+.color-MildObesity p {
+  color: #ff6c03;
+}
+
+.color-ModerateObesity {
+  border-color: #ff6c03;
+}
+.color-ModerateObesity p {
+  color: #ff6c03;
+}
+
+.color-SevereObesity {
+  border-color: #ff1200;
+}
+.color-SevereObesity p {
+  color: #ff1200;
+}
+
+.main {
+  background-color: #e2e2e2;
+}
+.main h3 {
+  font-size: 24px;
+  color: #424242;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.main ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+.main ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: Medium;
+  font-family: "Noto Sans TC", sans-serif;
+  padding: 10px 10px 10px 20px;
+}
+.main ul li div {
+  height: 62px;
+  width: 20%;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.main ul li div small {
+  margin: 0 10px;
+}
+.main ul li a {
+  margin-left: auto;
+  text-align: right;
+  cursor: pointer;
+}
+.main ul li .date {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.main ul li .date.active {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.border-underWeight {
+  border-left: 5px solid #31baf9;
+}
+
+.border-health {
+  border-left: 5px solid #86d73f;
+}
+
+.border-overWeight {
+  border-left: 5px solid #ff982d;
+}
+
+.border-mildObesity {
+  border-left: 5px solid #ff6c03;
+}
+
+.border-moderateObesity {
+  border-left: 5px solid #ff6c03;
+}
+
+.border-severeObesity {
+  border-left: 5px solid #ff1200;
+}
+
+.footer {
+  background-color: #ffd366;
+}
