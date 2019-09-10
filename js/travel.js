@@ -38,15 +38,15 @@ function clickHandler(e) {
                     </div>
                     <ul class="locationContent mb-0 p-2" style="box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20)">
                         <li>
-                            <img src="/images/icons_clock.png" alt=""><span class="pl-2">${dataArr[i].Opentime}</span>
+                            <img src="../images/icons_clock.png" alt=""><span class="pl-2">${dataArr[i].Opentime}</span>
                         </li>
                         <li>
-                            <img src="/images/icons_pin.png" alt=""><span class="pl-2">${dataArr[i].Add}</span>
+                            <img src="../images/icons_pin.png" alt=""><span class="pl-2">${dataArr[i].Add}</span>
                         </li>
                         <li class="d-flex justify-content-between">
-                            <p><img src="/images/icons_phone.png" alt="" style="width: 16px;height: 20px;"><span
+                            <p><img src="../images/icons_phone.png" alt="" style="width: 16px;height: 20px;"><span
                                     class="pl-2">${dataArr[i].Tel}</span></p>
-                            <p><img src="/images/icons_tag.png" alt=""><span class="pl-2">${dataArr[i].Ticketinfo}</span></p>
+                            <p><img src="../images/icons_tag.png" alt=""><span class="pl-2">${dataArr[i].Ticketinfo}</span></p>
                         </li>
                     </ul>
                 </div>`
